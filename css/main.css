@@ -13,7 +13,6 @@
 }
     .half-circle{
         display: inline-block;
-        /* background: white; */
         width: 800px;
         height: 800px;
         border-top-left-radius: 100%;
