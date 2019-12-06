@@ -8,9 +8,9 @@
 .bg-img{
     background-image: linear-gradient(to right, red , blue);
 }
-.container *{
+/* .container *{
     padding: 80px;
-}
+} */
     .half-circle{
         display: inline-block;
         width: 800px;
@@ -20,6 +20,51 @@
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
         border: 20px solid white;
-        border-bottom: 0;
-        
+        border-bottom: 0;   
+        position: relative;     
     }
+        .number{
+            display: inline-block;
+            /* float: left; */
+            width: 100%;
+            position: absolute;
+            color: white;
+            font-size: 30px;
+            line-height: 60px;     
+        }
+            #num0{
+                right: 150px;
+                bottom: 40px;
+            }
+            #num1{
+                top: 486px;
+                right: 300px;
+            }
+            #num5{
+                top: 296px;
+                right: 325px;
+            }
+            #num10{
+                top: 103px;
+                right: 250px;
+            }
+            #num20{
+                top: 0;
+                left: 0;
+            }
+            #num30{
+                top: 103px;
+                left: 250px;
+            }
+            #num50{
+                top: 296px;
+                left: 325px;
+            }
+            #num75{
+                top: 486px;
+                left: 300px;
+            }
+            #num100{
+                bottom: 40px;
+                left: 150px;
+            }
