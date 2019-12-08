@@ -1,9 +1,9 @@
 .container{
     display: inline-block;
     width: 100%;
-    height: 100vh;
-    padding: 80px;
+    min-height: 100vh;
     text-align: center;
+    padding: 80px;
 }
 .bg-img{
     background-image: linear-gradient(to right, red , blue);
@@ -21,7 +21,14 @@
         border-bottom-right-radius: 100%;
         border: 20px solid white;
         border-bottom: 0;   
-        position: relative;     
+           
+    }
+    .speed{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        position: relative; 
+        border: 1px solid black ; 
     }
         .number{
             display: inline-block;
@@ -34,7 +41,7 @@
         }
             #num0{
                 right: 150px;
-                bottom: 40px;
+                top: 673px;
             }
             #num1{
                 top: 486px;
@@ -65,6 +72,47 @@
                 left: 300px;
             }
             #num100{
-                bottom: 40px;
+                top: 673px;
                 left: 150px;
             }
+            .arrow{
+                display: inline-block;
+                width: 38%;
+                height: 18px;
+                background: black;
+                position: absolute;
+                top: 50%;
+                right: 50%;
+                bottom: 0;
+                transform-origin: 100%;
+                transform: rotate(90deg);
+            }
+
+
+/*************************/          
+/********media***********/
+/***********************/
+@media (max-width: 910px) {
+    .half-circle{
+        width: 690px;
+        height: 690px;
+    }
+}
+@media (max-width: 800px) {
+    .half-circle{
+        width: 550px;
+        height: 550px;
+    }
+}
+@media (max-width: 650px) {
+    .half-circle{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media (max-width: 495px) {
+    .half-circle{
+        width: 250px;
+        height: 250px;
+    }
+}
