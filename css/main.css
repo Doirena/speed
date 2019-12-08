@@ -28,16 +28,16 @@
         width: 100%;
         height: 100%;
         position: relative; 
-        border: 1px solid black ; 
+        /* border: 1px solid black ;  */
+        transform: translateY(-3px);
     }
         .number{
             display: inline-block;
-            /* float: left; */
             width: 100%;
             position: absolute;
             color: white;
             font-size: 30px;
-            line-height: 60px;     
+            line-height: 60px;              
         }
             #num0{
                 right: 150px;
@@ -79,13 +79,36 @@
                 display: inline-block;
                 width: 38%;
                 height: 18px;
-                background: black;
+                background: red;
+                border: 1px solid white;
+                border-top-left-radius:99%;
+                border-bottom-left-radius:99%;
+                /* border-top-right-radius:50%; */
                 position: absolute;
                 top: 50%;
                 right: 50%;
                 bottom: 0;
                 transform-origin: 100%;
-                transform: rotate(90deg);
+                transform: rotate(-65deg);
+                transition: all 0.07s;
+            }
+            .button{
+               display: inline-block;
+               width: 50%;
+               color: white;
+               text-transform: uppercase;
+               font-size: 30px;
+               line-height: 30px;
+               padding: 20px; 0;
+               position: absolute;
+               left:0;
+               top:95%;
+               background-color: red;
+               border: 1px dotted white;
+
+            }
+            .button:last-child{
+             left:50%;
             }
 
 
