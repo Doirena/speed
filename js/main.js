@@ -12,7 +12,5 @@ function arrowMove(e){
     }  
 }
 
-
-
 const firstBtn = document.querySelectorAll('.button');
 firstBtn.forEach(button => button.addEventListener ('mousedown',arrowMove));
