@@ -99,13 +99,12 @@
                text-transform: uppercase;
                font-size: 30px;
                line-height: 30px;
-               padding: 20px; 0;
+               padding: 20px, 0;
                position: absolute;
                left:0;
                top:95%;
                background-color: red;
                border: 1px dotted white;
-
             }
             .button:last-child{
              left:50%;
