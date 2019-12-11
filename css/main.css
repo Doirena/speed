@@ -89,7 +89,7 @@
                 bottom: 0;
                 transform-origin: 100%;
                 transform: rotate(-53deg);
-                transition: all 3s;
+                transition: transform 1s;
             }
             .button{
                display: inline-block;
