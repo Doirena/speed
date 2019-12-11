@@ -8,7 +8,7 @@ function arrowMove(e){
         }
     }
     if(this.dataset.name === 'stop'){
-        arrowStyle.style.transform = `rotate(${-65}deg)`
+        arrowStyle.style.transform = `rotate(${-53}deg)`
     }  
 }
 

@@ -13,13 +13,13 @@
 } */
     .half-circle{
         display: inline-block;
-        width: 800px;
-        height: 800px;
+        width: 600px;
+        height: 600px;
         border-top-left-radius: 100%;
         border-top-right-radius: 100%;
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
-        border: 20px solid white;
+        border: 15px solid white;
         border-bottom: 0;   
            
     }
@@ -40,39 +40,39 @@
             line-height: 60px;              
         }
             #num0{
+                top: 473px;
                 right: 150px;
-                top: 673px;
             }
             #num1{
-                top: 486px;
-                right: 300px;
+                top: 336px;
+                right: 250px;
             }
             #num5{
-                top: 296px;
-                right: 325px;
+                top: 196px;
+                right: 250px;
             }
             #num10{
-                top: 103px;
-                right: 250px;
+                top: 53px;
+                right: 160px;
             }
             #num20{
                 top: 0;
                 left: 0;
             }
             #num30{
-                top: 103px;
-                left: 250px;
+                top: 53px;
+                left: 160px;
             }
             #num50{
-                top: 296px;
-                left: 325px;
+                top: 196px;
+                left: 250px;
             }
             #num75{
-                top: 486px;
-                left: 300px;
+                top: 336px;
+                left: 250px;
             }
             #num100{
-                top: 673px;
+                top: 473px;
                 left: 150px;
             }
             .arrow{
@@ -83,26 +83,25 @@
                 border: 1px solid white;
                 border-top-left-radius:99%;
                 border-bottom-left-radius:99%;
-                /* border-top-right-radius:50%; */
                 position: absolute;
                 top: 50%;
                 right: 50%;
                 bottom: 0;
                 transform-origin: 100%;
-                transform: rotate(-65deg);
+                transform: rotate(-53deg);
                 transition: all 3s;
             }
             .button{
                display: inline-block;
-               width: 50%;
+               width: 40%;
                color: white;
                text-transform: uppercase;
-               font-size: 30px;
-               line-height: 30px;
-               padding: 30px 0;
+               font-size: 20px;
+               line-height: 20px;
+               padding: 20px 0;
                position: absolute;
-               left:0;
-               top:95%;
+               left: 10%;
+               top:93%;
                background-color: red;
                border: 1px dotted white;
             }
@@ -114,13 +113,8 @@
 /*************************/          
 /********media***********/
 /***********************/
+
 @media (max-width: 910px) {
-    .half-circle{
-        width: 690px;
-        height: 690px;
-    }
-}
-@media (max-width: 800px) {
     .half-circle{
         width: 550px;
         height: 550px;
