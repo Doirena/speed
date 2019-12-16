@@ -3,14 +3,12 @@
     width: 100%;
     min-height: 100vh;
     text-align: center;
-    padding: 80px;
+    padding: 60px;
+    overflow: hidden;
 }
 .bg-img{
     background-image: linear-gradient(to right, red , blue);
 }
-/* .container *{
-    padding: 80px;
-} */
     .half-circle{
         display: inline-block;
         width: 600px;
