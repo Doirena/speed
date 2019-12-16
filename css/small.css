@@ -3,7 +3,7 @@
     width: 100%;
     min-height: 100vh;
     text-align: center;
-    padding: 80px;
+    padding: 40px;
 }
 .bg-img{
     background-image: linear-gradient(to right, red , blue);
@@ -13,13 +13,13 @@
 } */
     .half-circle{
         display: inline-block;
-        width: 600px;
-        height: 600px;
+        width: 250px;
+        height: 250px;
         border-top-left-radius: 100%;
         border-top-right-radius: 100%;
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
-        border: 15px solid white;
+        border: 7px solid white;
         border-bottom: 0;   
            
     }
@@ -36,44 +36,44 @@
             width: 100%;
             position: absolute;
             color: white;
-            font-size: 30px;
-            line-height: 60px;              
+            font-size: 15px;
+            line-height: 30px;              
         }
             #num0{
-                top: 473px;
-                right: 150px;
+                top: 190px;
+                right: 60px;
             }
             #num1{
-                top: 336px;
-                right: 250px;
+                top: 146px;
+                right: 90px;
             }
             #num5{
-                top: 196px;
-                right: 250px;
+                top: 90px;
+                right: 100px;
             }
             #num10{
-                top: 53px;
-                right: 160px;
+                top: 33px;
+                right: 70px;
             }
             #num20{
                 top: 0;
                 left: 0;
             }
             #num30{
-                top: 53px;
-                left: 160px;
+                top: 33px;
+                left: 70px;
             }
             #num50{
-                top: 196px;
-                left: 250px;
+                top: 90px;
+                left: 100px;
             }
             #num75{
-                top: 336px;
-                left: 250px;
+                top: 146px;
+                left: 90px;
             }
             #num100{
-                top: 473px;
-                left: 150px;
+                top: 190px;
+                left: 60px;
             }
             .arrow{
                 display: inline-block;
@@ -84,7 +84,7 @@
                 border-top-left-radius:99%;
                 border-bottom-left-radius:99%;
                 position: absolute;
-                top: 50%;
+                top: 45%;
                 right: 50%;
                 bottom: 0;
                 transform-origin: 100%;
@@ -96,9 +96,9 @@
                width: 40%;
                color: white;
                text-transform: uppercase;
-               font-size: 20px;
-               line-height: 20px;
-               padding: 20px 0;
+               font-size: 10px;
+               line-height: 10px;
+               padding: 10px 0;
                position: absolute;
                left: 10%;
                top:93%;
@@ -108,27 +108,3 @@
             .button:last-child{
              left:50%;
             }
-
-
-/*************************/          
-/********media***********/
-/***********************/
-
-/* @media (max-width: 910px) {
-    .half-circle{
-        width: 550px;
-        height: 550px;
-    }
-}
-@media (max-width: 650px) {
-    .half-circle{
-        width: 400px;
-        height: 400px;
-    }
-} */
-/* @media (max-width: 495px) {
-    .half-circle{
-        width: 250px;
-        height: 250px;
-    }
-} */
