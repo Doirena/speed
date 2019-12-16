@@ -1,7 +1,7 @@
 const arrowStyle = document.querySelector('.arrow');
 const initialPositionBtn = 53;
 function arrowMove(e){
-    console.log(e);
+    // console.log(e);
     // console.log(this.dataset.name);
     
     
@@ -13,6 +13,13 @@ function arrowMove(e){
          arrowStyle.style.background = `red`;   
         } 
     } 
+    if(this.dataset.name === 'stop'){
+        arrowStyle.style.transform = `rotate(${-initialPositionBtn}deg)`
+        arrowStyle.style.transition = `transform ${500}ms`;  
+        arrowStyle.style.background = `green`;
+        console.log('stop');
+         
+    }  
     //kai atleidziamas pelesmygtukas
     firstBtn.forEach(button => button.addEventListener ('mouseup', () => {
     if (this.dataset.name === 'start'){
@@ -22,16 +29,14 @@ function arrowMove(e){
         }
     }));
 
-    if(this.dataset.name === 'stop'){
-        arrowStyle.style.transform = `rotate(${-initialPositionBtn}deg)`
-        arrowStyle.style.transition = `transform ${500}ms`;  
-        arrowStyle.style.background = `green`; 
-    }  
+
 }
 
 const firstBtn = document.querySelectorAll('.button');
 firstBtn.forEach(button => button.addEventListener ('mousedown',arrowMove));
 // firstBtn.forEach(button => button.addEventListener ('mouseleave', () => mousedown =false));
+console.log(document.querySelector("data-name[star]"));
+
 
 
 
